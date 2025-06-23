@@ -7,7 +7,7 @@ from openai import OpenAI  # OpenRouter client for Claude
 
 # API initializer
 client = OpenAI(
-    api_key="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", #API code (for openAI)
+    api_key="", #API code (for openAI) -> DELETED
     base_url="https://openrouter.ai/api/v1"
 )
 
